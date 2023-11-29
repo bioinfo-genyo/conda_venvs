@@ -1,0 +1,6 @@
+r-base
+r-tidyverse
+r-essentials
+r-languageserver
+r-httpgd
+r-httpuv
