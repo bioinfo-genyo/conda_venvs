@@ -33,6 +33,28 @@ conda create -n rna-seq python=3.10
 
 # Create env to download and install R and useful packages
 cat r_packages.txt | xargs conda install -n R
+
+# List all envs
+conda env list
+
+# Activate env
+conda activate rna-seq
+
+# Install packages
+conda install PACKAGE
+
+# Example
+conda install -c bioconda samtools
+
+# List all installed packages in an env
+conda list
+
+# Deactivate
+conda deactivate
+
+# Remove env
+conda remove -n rna-seq --all
+
 ```
 
 ## Export envs
@@ -45,5 +67,6 @@ conda env export > environment.yml
 ## Import envs
 
 ```bash
+# Import the .yml file in other pc
 conda env create -f environment.yml
 ```
