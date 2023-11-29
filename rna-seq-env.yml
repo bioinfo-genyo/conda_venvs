@@ -17,7 +17,10 @@ dependencies:
   - c-ares=1.22.1=hd590300_0
   - ca-certificates=2023.11.17=hbcca054_0
   - cairo=1.16.0=ha61ee94_1014
+  - cffi=1.16.0=py310h2fee648_0
   - curl=7.87.0=h6312ad2_0
+  - cutadapt=4.5=py310h4b81fae_0
+  - dnaio=1.1.0=py310h4b81fae_0
   - expat=2.5.0=hcb278e6_1
   - fastqc=0.12.1=hdfd78af_0
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
@@ -43,6 +46,7 @@ dependencies:
   - htslib=1.17=h6bc39ce_1
   - icu=70.1=h27087fc_0
   - igv=2.16.2=hdfd78af_0
+  - isa-l=2.30.0=hd590300_6
   - jpeg=9e=h166bdaf_2
   - kallisto=0.50.1=hc877fd6_0
   - kernel-headers_linux-64=2.6.32=he073ed8_16
@@ -94,14 +98,18 @@ dependencies:
   - openjdk=11.0.1=h516909a_1016
   - openssl=1.1.1w=hd590300_0
   - pango=1.50.14=hd33c08f_0
+  - pbzip2=1.1.13=h1fcc475_2
   - pcre2=10.40=hc3806b6_0
   - perl=5.32.1=4_hd590300_perl5
+  - pigz=2.8=h2797004_0
   - pip=23.3.1=pyhd8ed1ab_0
   - pixman=0.42.2=h59595ed_0
   - pthread-stubs=0.4=h36c2ea0_1001
   - pybigwig=0.3.18=py310h722e95c_2
+  - pycparser=2.21=pyhd8ed1ab_0
   - pysam=0.21.0=py310hff46b53_0
   - python=3.10.8=h257c98d_0_cpython
+  - python-isal=1.5.3=py310h2372a71_0
   - python_abi=3.10=4_cp310
   - r-base=4.2.2=h6b4767f_2
   - readline=8.2=h8228510_1
@@ -116,9 +124,11 @@ dependencies:
   - tbb=2021.9.0=hf52228f_0
   - tk=8.6.13=noxft_h4845f30_101
   - tktable=2.10=h0c5db8f_5
+  - trimmomatic=0.39=hdfd78af_2
   - tzdata=2023c=h71feb2d_0
   - ucsc-bedgraphtobigwig=445=h954228d_0
   - wheel=0.42.0=pyhd8ed1ab_0
+  - xopen=1.8.0=py310hff52083_0
   - xorg-fixesproto=5.0=h7f98852_1002
   - xorg-inputproto=2.3.2=h7f98852_1002
   - xorg-kbproto=1.0.7=h7f98852_1002
@@ -139,6 +149,7 @@ dependencies:
   - xorg-xproto=7.0.31=h7f98852_1007
   - xz=5.2.6=h166bdaf_0
   - zlib=1.2.13=hd590300_5
+  - zstandard=0.22.0=py310h1275a96_0
   - zstd=1.5.5=hfc55251_0
   - pip:
       - certifi==2023.11.17
